@@ -1,31 +1,29 @@
-
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-   
+
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #597E9B   ;
-  --secondary-color: #6E356D ;
-  --accent1-color: #A01003;
-  --accent2-color: #95959D;
+  --primary-color: #597e9b;
+  --secondary-color: #6e356d;
+  --accent1-color: #a01003;
+  --accent2-color: #95959d;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: Aldhabi;
+  --heading-font: Times New Roman;
   --paragraph-font: Calibri;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: #597E9B; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #6E356D; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #95959D  ;
-  --nav-link-color: #A01003;
-  --nav-background-color: #597E9B;
-  --nav-hover-link-color: #6E356D;
-  --nav-hover-background-color: #396E94;
+  --headline-color-on-white: #396e94; /* headlines on a white background */
+  --headline-color-on-color: #597e9b; /* headlines on a colored background */
+  --paragraph-color-on-white: #396e94; /* paragraph text on a white background */
+  --paragraph-color-on-color: #6e356d; /* paragraph text on a colored background */
+  --paragraph-background-color: #95959d;
+  --nav-link-color: #a01003;
+  --nav-background-color: #597e9b;
+  --nav-hover-link-color: #6e356d;
+  --nav-hover-background-color: #396e94;
 }
-
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
@@ -41,7 +39,12 @@ img {
   margin: 0 auto;
   max-width: 300px;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
@@ -59,7 +62,8 @@ header {
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
 }
-header > h1, header > h2 {
+header > h1,
+header > h2 {
   color: var(--headline-color-on-color);
 }
 p {
@@ -76,21 +80,21 @@ p {
 .colors th {
   background-color: #999;
 }
-.colors td{
+.colors td {
   width: 25%;
   height: 3em;
 }
 .primary {
-  background-color: var(#597E9B);
+  background-color: var(#597e9b);
 }
 .secondary {
-  background-color: var(#6E356D);
+  background-color: var(#6e356d);
 }
 .accent1 {
-  background-color: var(#A01003);
+  background-color: var(#a01003);
 }
-.accent2{
-  background-color: var(#95959D);
+.accent2 {
+  background-color: var(#95959d);
 }
 p.colored {
   background-color: var(--paragraph-background-color);
@@ -102,17 +106,18 @@ nav {
   text-align: center;
   font-size: 1.2em;
 }
-nav  {
+nav {
   list-style-type: none;
   display: flex;
 }
 nav a {
-  padding:1em;
+  padding: 1em;
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
 }
-nav a:link, nav a:visited {
+nav a:link,
+nav a:visited {
   color: var(--nav-link-color);
 }
 nav a:hover {
@@ -125,7 +130,8 @@ nav a:hover {
 
   grid-template-columns: repeat(6, 15%);
   grid-template-rows: 3em 1.5em 1.5em 3em;
-  grid-template-areas: ". . home home . ."
+  grid-template-areas:
+    ". . home home . ."
     ". . . top . ."
     ". left left right right ."
     "page2 page2 . . page3 page3";

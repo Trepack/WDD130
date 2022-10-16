@@ -1,5 +1,12 @@
 body {
   background-color: cadetblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
 }
 div {
   max-width: 1600px;
@@ -9,11 +16,16 @@ div {
 }
 header {
   background-color: dimgrey;
+  font-family: "Times New Roman", Times, serif;
+}
+#logo_link {
+  padding-top: 15px;
 }
 nav a {
   text-align: center;
   color: maroon;
   text-decoration: none;
+  padding: 35px;
 }
 nav a:hover {
   background-color: darkseagreen;
@@ -22,12 +34,30 @@ nav a:hover {
 }
 .home-title {
   color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2em;
+  margin-top: 10px;
 }
 .book,
 .join {
   background-color: cornsilk;
   color: darkblue;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.card-img {
+  border: 10px solid black;
+}
+main section img {
+  box-sizing: border-box;
+}
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
 }
 .book:hover,
 .join:hover {
@@ -37,14 +67,21 @@ nav a:hover {
 #background {
   background-color: darkkhaki;
 }
+.icon {
+  padding-top: 10px;
+}
 .msg {
   background-color: burlywood;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  padding: 35px;
 }
 .msg h2 {
   color: darkcyan;
 }
 .msg p {
   color: darkslateblue;
+  padding-bottom: 15px;
 }
 #hero-msg h1 {
   text-align: center;
@@ -68,6 +105,11 @@ hero-img.icon {
 
 footer {
   background-color: aquamarine;
+  padding: 25px 50px;
+  margin: 200px;
+}
+footer.social img {
+  padding-top: 15px;
 }
 footer a {
   color: plum;
