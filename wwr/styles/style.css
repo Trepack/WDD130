@@ -5,6 +5,10 @@ body {
   margin: 0;
   padding: 0;
 }
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 h2 {
   margin: 0;
 }
@@ -60,6 +64,7 @@ nav a:hover {
   border: 10px solid black;
   transition: transform 0.5s;
   box-shadow: 5px 5px 10px gray;
+  width: 100%;
 }
 .card-img:hover {
   opacity: 0.6;
@@ -136,7 +141,7 @@ main section img {
   grid-row: 1/2;
   margin-top: 100px;
 }*/
-#hero-msg h1 {
+#hero-msg {
   text-align: center;
 }
 .button-box {
@@ -149,6 +154,9 @@ main section {
   width: 80px;
 }
 hero-img.icon {
+  width: 100%;
+}
+#hero-img {
   width: 100%;
 }
 #background {
