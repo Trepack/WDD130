@@ -1,0 +1,23 @@
+section {
+  width: 50%;
+  border: 1px solid;
+}
+.block1 {
+  margin-right: auto;
+}
+.block2,
+.block4 {
+  margin: 0 auto;
+}
+.block3 {
+  margin-left: auto;
+}
+p:nth-type-of(1) {
+  text-align: left;
+}
+p:nth-type-of(2) {
+  text-align: center;
+}
+p:nth-type-of(3) {
+  text-align: right;
+}
