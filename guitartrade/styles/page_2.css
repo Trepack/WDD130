@@ -137,7 +137,7 @@ footer {
   padding: 25px 50px;
   margin-top: 200px;
   display: flex;
-  justify-content: flex-end;
-  align-items: right of center;
+  justify-content: space-around;
+  align-items: right;
   flex-direction: row;
 }
